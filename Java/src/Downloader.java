@@ -3,6 +3,8 @@
  * @version 2014.8
  *
  * This models a thread for downloading, given a module code, year, term
+ * 
+ *  !!!!NOTE: A lot of repeated code, refactor, write method that accepts year, term, module (reduce repetition)
  */
 import java.io.*;
 import java.net.*;
