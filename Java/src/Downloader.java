@@ -3,7 +3,6 @@
  * @version 2014.8
  *
  * This models a thread for downloading, given a module code, year, term
- *
  */
 import java.io.*;
 import java.net.*;
@@ -11,7 +10,6 @@ import java.net.*;
 public class Downloader extends Thread{
     private int year;
     private String module;
-    private String url = "http://www.nuim.ie/expert2/downloads//";
     private File location;
     private boolean downloadRepeats;
 
@@ -36,6 +34,7 @@ public class Downloader extends Thread{
 
         //Try to download the exam papers (jan, sum, aug, main, repeat)
         String path = dir.getAbsolutePath();
+        String url = "http://www.nuim.ie/expert2/downloads//";
         try {
             String fileNameOnline = String.valueOf(year) + "-" + module + "-"+ jan + ".pdf";
             URL web = new URL(url + fileNameOnline);

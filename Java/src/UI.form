@@ -34,7 +34,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <margin top="0" left="0" bottom="0" right="18"/>
+        </properties>
       </component>
       <component id="601ff" class="javax.swing.JButton" binding="chooseSaveLocationButton" default-binding="true">
         <constraints>
@@ -42,6 +44,7 @@
         </constraints>
         <properties>
           <font name="Ubuntu" size="14" style="1"/>
+          <margin top="2" left="14" bottom="2" right="18"/>
           <selected value="false"/>
           <text value="Choose save location"/>
           <visible value="true"/>
@@ -54,6 +57,7 @@
         <properties>
           <enabled value="true"/>
           <font name="Ubuntu" size="14" style="1"/>
+          <margin top="2" left="14" bottom="2" right="18"/>
           <text value="Start Download"/>
           <verticalAlignment value="0"/>
           <verticalTextPosition value="0"/>
