@@ -6,3 +6,5 @@ A simple Java Swing program to batch download exam papers from the NUIM library 
 Downloads exam papers using multiple threads. Possible to choose multiple modules. Can choose whether to include repeats or not.
 
 ![Screenshot](screenshot/screenshot.png "Screenshot of Java Swing Version")
+
+[Download Java Version](downloads/NUIM Exam Paper Downloader.jar)

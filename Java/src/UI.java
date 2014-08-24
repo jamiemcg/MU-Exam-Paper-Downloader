@@ -1,7 +1,9 @@
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.io.IOException;
 import java.util.Calendar;
 
 /**
@@ -103,7 +105,11 @@ public class UI {
         frame.pack();
         frame.setResizable(false);
         ImageIcon icon = new ImageIcon("icon.png");
-        frame.setIconImage(icon.getImage());
+        try {
+            frame.setIconImage(ImageIO.read(UI.class.getResource("icon.png")));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         frame.setVisible(true);
     }
 }
