@@ -7,4 +7,4 @@ Downloads exam papers using multiple threads. Possible to choose multiple module
 
 ![Screenshot](screenshot/screenshot.png "Screenshot of Java Swing Version")
 
-[Download Java Version](downloads/NUIM Exam Paper Downloader.jar)
+[Download Java Version](Downloads/NUIM Exam Paper Downloader.jar)
