@@ -54,7 +54,7 @@
         <properties>
           <enabled value="true"/>
           <font name="Ubuntu" size="14" style="1"/>
-          <text value="Download!"/>
+          <text value="Start Download"/>
           <verticalAlignment value="0"/>
           <verticalTextPosition value="0"/>
         </properties>
