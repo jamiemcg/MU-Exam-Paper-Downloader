@@ -6,7 +6,7 @@ import os
 from datetime import date
 from urllib.request import urlopen
 
-print("\n\n\n\nNUIM Exam Paper Downloader")
+print("\nNUIM Exam Paper Downloader")
 print("--------------------------\n\n")
 
 start_year = date.today().year
