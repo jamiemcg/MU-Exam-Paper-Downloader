@@ -1,12 +1,17 @@
 #NUIM Exam Paper Downloader
 
+###Android Version
+The Android version is a simple app that batch downloads exam papers from the MU Library website. It is multithreaded so it downloads the .pdfs pretty quickly because of the mutilple threads/connections. It includes an option to download repeats. You can specify multiple modules by separating them by commas. The backend (downloader) is exactly the same as the Java version (see below). *[Lots of repeated code]*
+
+![Android Screenshot](screenshot/android_screenshot.png "Screenshot of Android Version")
+[Download Android Version](Downloads/MU Exam Paper Downloader.apk)
+
 
 ###Java Version
 A simple Java Swing program to batch download exam papers from the NUIM library web site.
-Downloads exam papers using multiple threads. Possible to choose multiple modules. Can choose whether to include repeats or not.
+Downloads exam papers using multiple threads. Possible to choose multiple modules. Can choose whether to include repeats or not. *[Lots of repeated code]*
 
-![Screenshot](screenshot/screenshot.png "Screenshot of Java Swing Version")
-
+![Java Screenshot](screenshot/screenshot.png "Screenshot of Java Swing Version")
 [Download Java Version](Downloads/NUIM Exam Paper Downloader.jar)
 
 ###Python Version

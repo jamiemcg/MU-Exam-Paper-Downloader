@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:id="@+id/main">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo_imageView"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Please enter the module code(s):"
+        android:id="@+id/module_textView"
+
+        android:layout_below="@+id/logo_imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/logo_imageView"
+        android:layout_alignEnd="@+id/logo_imageView"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="(Separate multiple modules by spaces)"
+        android:id="@+id/info_textView"
+        android:layout_below="@+id/module_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/module_editText"
+        android:layout_alignEnd="@+id/module_editText"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/module_editText"
+        android:layout_below="@+id/info_textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/logo_imageView"
+        android:layout_alignEnd="@+id/logo_imageView"
+        android:layout_marginTop="15dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download Repeats"
+        android:id="@+id/repeats_switch"
+        android:checked="true"
+        android:layout_below="@+id/module_editText"
+        android:layout_alignRight="@+id/module_editText"
+        android:layout_alignEnd="@+id/module_editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:id="@+id/download_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:enabled="false"
+        android:clickable="true"
+        android:layout_alignRight="@+id/logo_imageView"
+        android:layout_alignEnd="@+id/logo_imageView" />
+</RelativeLayout>
